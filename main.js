@@ -90,6 +90,12 @@ const app = {
             path:'./assets/music/changthetimduocem.mp3',
             image: './assets/img/changthetimduocem.jpg',
         },
+        {
+            name: 'Về bên anh',
+            singer:'Jack',
+            path:'./assets/music/vebenanh.mp3',
+            image: './assets/img/vebenanh.jpg',
+        },
     ],
 
     handleEvents: function() {
