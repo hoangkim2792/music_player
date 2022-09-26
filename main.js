@@ -36,23 +36,30 @@ const app = {
     isPlaying: false,
     isRandom: false,
     songs: [
-        {
-            name: 'Chắc Ai Đó Sẽ Về',
-            singer:'MTP',
-            path:'./assets/music/chacaidoseve.mp3',
-            image: './assets/img/chacaidoseve.jpg',
+
+        {   
+            name: 'Thêm bao lâu',
+            singer:'Đạt G',
+            path:'https://vnso-zn-23-tf-mp3-s1-m-zmp3.zmdcdn.me/ebb189aeb0e959b700f8/7841055188187012774?authen=exp=1664384498~acl=/ebb189aeb0e959b700f8/*~hmac=2b38b3dfda3c4b47a775a0b20c645553',
+            image: './assets/img/thembaolau.jpeg',
         },
         {   
-            name: 'Em Của Ngày Hôm Qua',
-            singer:'MTP',
-            path:'./assets/music/emcuangayhomqua.mp3',
-            image: './assets/img/emcuangayhomqua.jpg',
+            name: 'Đừng chờ anh nữa',
+            singer:'Tăng Phúc',
+            path:'https://vnso-zn-16-tf-mp3-s1-m-zmp3.zmdcdn.me/8e27cdf416b0ffeea6a1/4282103162349389003?authen=exp=1664384410~acl=/8e27cdf416b0ffeea6a1/*~hmac=3b17661c76911bb857bab541ab51f401',
+            image: './assets/img/dungchoanhnua.jpeg',
         },
         {   
-            name: 'Em Của Quá Khứ',
-            singer:'Nguyen Dinh Vu',
-            path:'./assets/music/emcuaquakhu.mp3',
-            image: './assets/img/emcuaquakhu.jpg',
+            name: 'Đúng người đúng thời điểm',
+            singer:'Thanh Hưng',
+            path:'https://vnso-zn-24-tf-mp3-s1-m-zmp3.zmdcdn.me/14033a2d036aea34b37b/3492656630613786320?authen=exp=1664384888~acl=/14033a2d036aea34b37b/*~hmac=1cd4a275991663aecb97d9cfd34304c9',
+            image: './assets/img/dungnguoidungthoidiem.jpeg',
+        },
+        {   
+            name: 'Bánh mì không',
+            singer:'Đạt G',
+            path:'https://vnso-zn-5-tf-mp3-s1-m-zmp3.zmdcdn.me/520737eb16acfff2a6bd/6972486596562639576?authen=exp=1664384887~acl=/520737eb16acfff2a6bd/*~hmac=8f1ee21aa83a064d60788ce6b7eaa8a0',
+            image: './assets/img/banhmikhong.jpeg',
         },
         {
             name: 'Đường Tôi Trở em Về',
@@ -71,12 +78,6 @@ const app = {
             singer:'Hung Kubo Remix',
             path:'./assets/music/kiss.mp3',
             image: './assets/img/kiss.jpg',
-        },
-        {
-            name: 'Mấy Đêm Chờ Mấy Đêm',
-            singer:'Nguyen Huu Kha x Dai Meo Remix',
-            path:'./assets/music/maydemchomaydem.mp3',
-            image: './assets/img/maydemchomaydem.jpg',
         },
         {
             name: 'Kẻ Điên Tin Vào Tình Yêu',
